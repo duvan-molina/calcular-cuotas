@@ -1,6 +1,6 @@
-const calcularCuota = (valorInicial, numeroDeCouta, tasaDeInteres = 0.02) => {
+const calcularCuota = (valorInicial, numeroDeCuota, tasaDeInteres = 0.02) => {
   const value1 = tasaDeInteres * valorInicial;
-  const value2 = 1 - (1 + tasaDeInteres) ** -numeroDeCouta;
+  const value2 = 1 - (1 + tasaDeInteres) ** -numeroDeCuota;
   return value1 / value2;
 };
 
